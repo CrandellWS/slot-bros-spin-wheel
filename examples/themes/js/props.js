@@ -31,12 +31,12 @@ export const props = [
         backgroundColor: '#22B14C', // Green for Phil
       },
       {
-        label: 'GAB',
+        label: 'GABE',
         weight: 1.0,
         backgroundColor: '#0000FF', // Blue for Gage
       },
       {
-        label: 'DEWSKI',
+        label: 'DEWSK',
         weight: 1.0,
         backgroundColor: '#800080', // Purple for Dewski
       }
