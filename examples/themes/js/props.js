@@ -48,18 +48,18 @@ export const props = [
     radius: 0.85,
     itemLabelRadius: 0.90,
     itemLabelRadiusMax: 0.35,
-    itemLabelRotation: 0,
-    itemLabelAlign: AlignText.center,
-    itemLabelColors: ['#000000'], // Black for visibility
+    itemLabelRotation: 180,
+    itemLabelAlign: AlignText.left,
+    itemLabelColors: ['#FFD700', '#FFFFFF', '#FF4500'], // Gold, white, and orange for vibrant slot colors
     itemLabelBaselineOffset: -0.07,
-    itemLabelFont: 'Arial', // Font observed in the image
-    itemLabelFontSizeMax: 30, // Adjust font size as needed
-    itemBackgroundColors: ['#FFD700', '#00FFFF', '#FF4500', '#FF69B4', '#FFFF00'], // Colors from the wheel
+    itemLabelFont: 'Amatic SC',
+    itemLabelFontSizeMax: 55,
+    itemBackgroundColors: ['#FF4500', '#FFD700', '#FFFFFF', '#0000FF'], // Orange, gold, white, and blue
     rotationSpeedMax: 500,
     rotationResistance: -100,
     lineWidth: 1,
     lineColor: '#000', // Black color for contrast
-    overlayImage: './img/slot-bros-overlay.svg',
+    overlayImage: './img/example-3-overlay.svg',
     items: [
       {
         label: 'KARAOKE',
