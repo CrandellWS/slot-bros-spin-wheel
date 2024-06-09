@@ -1,7 +1,42 @@
 import {AlignText} from '../../../src/constants.js';
 
 export const props = [
-
+  {
+    name: 'Slot Bros',
+    radius: 0.85,
+    itemLabelRadius: 0.90,
+    itemLabelRadiusMax: 0.35,
+    itemLabelRotation: 180,
+    itemLabelAlign: AlignText.left,
+    itemLabelColors: ['#FFD700', '#FFFFFF', '#FF4500'], // Gold, white, and orange for vibrant slot colors
+    itemLabelBaselineOffset: -0.07,
+    itemLabelFont: 'Amatic SC',
+    itemLabelFontSizeMax: 55,
+    itemBackgroundColors: ['#FF4500', '#FFD700', '#FFFFFF'], // Orange, gold, and white
+    rotationSpeedMax: 500,
+    rotationResistance: -100,
+    lineWidth: 1,
+    lineColor: '#000', // Black color for contrast
+    overlayImage: './img/example-3-overlay.svg',
+    items: [
+      {
+        label: 'BEN',
+        weight: 2.0,
+      },
+      {
+        label: 'PHIL',
+        weight: 1.5,
+      },
+      {
+        label: 'GAGE',
+        weight: 1.3,
+      },
+      {
+        label: 'DEWSKI',
+        weight: 1.2,
+      }
+    ],
+  },
   {
     name: 'Workout',
     radius: 0.84,
