@@ -12,7 +12,7 @@ export const props = [
     itemLabelBaselineOffset: -0.07,
     itemLabelFont: 'Amatic SC',
     itemLabelFontSizeMax: 55,
-    itemBackgroundColors: ['#FF4500', '#FFD700', '#FFFFFF'], // Orange, gold, and white
+    itemBackgroundColors: ['#FF4500', '#FFD700', '#FFFFFF', '#FF3333'], // Orange, gold, and white
     rotationSpeedMax: 500,
     rotationResistance: -100,
     lineWidth: 1,
@@ -21,19 +21,19 @@ export const props = [
     items: [
       {
         label: 'BEN',
-        weight: 2.0,
+        weight: 1.0,
       },
       {
         label: 'PHIL',
-        weight: 1.5,
+        weight: 1.0,
       },
       {
         label: 'GAGE',
-        weight: 1.3,
+        weight: 1.0,
       },
       {
         label: 'DEWSKI',
-        weight: 1.2,
+        weight: 1.0,
       }
     ],
   },
