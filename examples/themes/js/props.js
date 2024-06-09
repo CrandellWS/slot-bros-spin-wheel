@@ -5,20 +5,21 @@ export const props = [
     name: 'Slot Bros',
     radius: 0.85,
     itemLabelRadius: 0.90,
-    itemLabelRadiusMax: 0.35,
+    itemLabelRadiusMax: 0.4,
     itemLabelRotation: 180,
     itemLabelAlign: AlignText.left,
-    // itemLabelColors: ['#FFD700', '#FFFFFF', '#0000FF', '#FF4500'], 
-    itemLabelColors: ['#000000'], 
+    // itemLabelColors: ['#FFD700', '#FFFFFF', '#0000FF', '#FF4500'],
+    itemLabelColors: ['#000000'],
     itemLabelBaselineOffset: -0.07,
     itemLabelFont: 'Amatic SC',
     itemLabelFontSizeMax: 55,
-    itemBackgroundColors: ['#FF4500', '#FFD700', '#FFFFFF', '#0000FF'], 
+    itemBackgroundColors: ['#FF4500', '#FFD700', '#FFFFFF', '#0000FF'],
     rotationSpeedMax: 500,
     rotationResistance: -100,
     lineWidth: 1,
     lineColor: '#000', // Black color for contrast
-    overlayImage: './img/example-3-overlay.svg',
+     pointerAngle: 270, // Adjust the pointer to point to the left
+    overlayImage: './img/slotbro-overlay.svg',
     items: [
       {
         label: 'BEN',
@@ -47,7 +48,7 @@ export const props = [
     name: 'Slot Bros Wheel',
     radius: 0.85,
     itemLabelRadius: 0.90,
-    itemLabelRadiusMax: 0.35,
+    itemLabelRadiusMax: 0.4,
     itemLabelRotation: 180,
     itemLabelAlign: AlignText.left,
     itemLabelColors: ['#FFD700', '#FFFFFF', '#FF4500'], // Gold, white, and orange for vibrant slot colors
@@ -59,7 +60,8 @@ export const props = [
     rotationResistance: -100,
     lineWidth: 1,
     lineColor: '#000', // Black color for contrast
-    overlayImage: './img/example-3-overlay.svg',
+    overlayImage: './img/slotbro-overlay.svg',
+    pointerAngle: 270, // Adjust the pointer to point to the left
     items: [
       {
         label: 'KARAOKE',
@@ -67,7 +69,7 @@ export const props = [
         weight: 10.0,
         image: './img/karaoke-icon.png', // Add your image path
         imageOpacity: 1,
-        imageRadius: 0.85,
+        imageRadius: 0.4,
         imageRotation: 90,
         imageScale: 0.05,
       },
@@ -77,7 +79,7 @@ export const props = [
         weight: 10.0,
         image: './img/dealer-icon.png', // Add your image path
         imageOpacity: 1,
-        imageRadius: 0.85,
+        imageRadius: 0.3,
         imageRotation: 90,
         imageScale: 0.05,
       },
@@ -87,7 +89,7 @@ export const props = [
         weight: 10.0,
         image: './img/taste-test-icon.png', // Add your image path
         imageOpacity: 1,
-        imageRadius: 0.85,
+        imageRadius: 0.4,
         imageRotation: 90,
         imageScale: 0.05,
       },
@@ -97,7 +99,7 @@ export const props = [
         weight: 10.0,
         image: './img/shotgun-icon.png', // Add your image path
         imageOpacity: 1,
-        imageRadius: 0.85,
+        imageRadius: 0.4,
         imageRotation: 90,
         imageScale: 0.05,
       },
@@ -107,7 +109,7 @@ export const props = [
         weight: 10.0,
         image: './img/dill-shot-icon.png', // Add your image path
         imageOpacity: 1,
-        imageRadius: 0.85,
+        imageRadius: 0.4,
         imageRotation: 90,
         imageScale: 0.05,
       },
