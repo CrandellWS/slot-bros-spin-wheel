@@ -69,7 +69,7 @@ export const props = [
         imageOpacity: 1,
         imageRadius: 0.5,
         imageRotation: 0,
-        imageScale: 0.2,
+        imageScale: 0.05,
       },
       {
         label: 'DEALER\'S CHOICE',
@@ -79,7 +79,7 @@ export const props = [
         imageOpacity: 1,
         imageRadius: 0.5,
         imageRotation: 0,
-        imageScale: 0.2,
+        imageScale: 0.05,
       },
       {
         label: 'TASTE TEST',
@@ -89,7 +89,7 @@ export const props = [
         imageOpacity: 1,
         imageRadius: 0.5,
         imageRotation: 0,
-        imageScale: 0.2,
+        imageScale: 0.05,
       },
       {
         label: 'SHOTGUN',
@@ -99,7 +99,7 @@ export const props = [
         imageOpacity: 1,
         imageRadius: 0.5,
         imageRotation: 0,
-        imageScale: 0.2,
+        imageScale: 0.05,
       },
       {
         label: 'DILL SHOT',
@@ -109,7 +109,7 @@ export const props = [
         imageOpacity: 1,
         imageRadius: 0.5,
         imageRotation: 0,
-        imageScale: 0.2,
+        imageScale: 0.05,
       },
       {
         label: 'FREE BUY IN',
