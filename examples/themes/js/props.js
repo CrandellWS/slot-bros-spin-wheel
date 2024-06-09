@@ -30,7 +30,7 @@ export const props = [
         backgroundColor: '#22B14C', // Green for Phil
       },
       {
-        label: 'GAGE',
+        label: 'GAB',
         weight: 1.0,
         backgroundColor: '#0000FF', // Blue for Gage
       },
@@ -39,6 +39,58 @@ export const props = [
         weight: 1.0,
         backgroundColor: '#800080', // Purple for Dewski
       }
+    ],
+  },
+
+
+  {
+    name: 'Slot Bros Wheel',
+    radius: 0.85,
+    itemLabelRadius: 0.90,
+    itemLabelRadiusMax: 0.35,
+    itemLabelRotation: 0,
+    itemLabelAlign: AlignText.center,
+    itemLabelColors: ['#000000'], // Black for visibility
+    itemLabelBaselineOffset: -0.07,
+    itemLabelFont: 'Arial', // Font observed in the image
+    itemLabelFontSizeMax: 30, // Adjust font size as needed
+    itemBackgroundColors: ['#FFD700', '#00FFFF', '#FF4500', '#FF69B4', '#FFFF00'], // Colors from the wheel
+    rotationSpeedMax: 500,
+    rotationResistance: -100,
+    lineWidth: 1,
+    lineColor: '#000', // Black color for contrast
+    overlayImage: './img/slot-bros-overlay.svg',
+    items: [
+      {
+        label: 'KARAOKE',
+        backgroundColor: '#00FFFF', // Cyan
+        weight: 10.0,
+      },
+      {
+        label: 'DEALER\'S CHOICE',
+        backgroundColor: '#FFD700', // Gold
+        weight: 10.0,
+      },
+      {
+        label: 'TASTE TEST',
+        backgroundColor: '#FFFF00', // Yellow
+        weight: 10.0,
+      },
+      {
+        label: 'SHOTGUN',
+        backgroundColor: '#FF4500', // Red
+        weight: 10.0,
+      },
+      {
+        label: 'DILL SHOT',
+        backgroundColor: '#FF69B4', // Pink
+        weight: 10.0,
+      },
+      {
+        label: 'FREE BUY IN',
+        backgroundColor: '#FF69B4', // Pink
+        weight: 1.0,
+      },
     ],
   },
   {
