@@ -9,7 +9,8 @@ window.onload = async () => {
 
 function init() {
 
-  const wheel = new Wheel(document.querySelector('.wheel-wrapper'));
+  const wheelContainer = document.querySelector('.wheel-wrapper');
+  const wheel = new Wheel(wheelContainer);
 
   const dropdown = document.querySelector('select');
 
@@ -36,7 +37,7 @@ function init() {
   window.wheel = wheel;
 
   // Add click event listener to the wheel container
-  wheel.addEventListener('click', () => {
+  wheelContainer.addEventListener('click', () => {
     spinWheel(wheel);
   });
 
