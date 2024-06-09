@@ -67,8 +67,8 @@ export const props = [
         weight: 10.0,
         image: './img/karaoke-icon.png', // Add your image path
         imageOpacity: 1,
-        imageRadius: 0.5,
-        imageRotation: 0,
+        imageRadius: 0.85,
+        imageRotation: 90,
         imageScale: 0.05,
       },
       {
@@ -77,8 +77,8 @@ export const props = [
         weight: 10.0,
         image: './img/dealer-icon.png', // Add your image path
         imageOpacity: 1,
-        imageRadius: 0.5,
-        imageRotation: 0,
+        imageRadius: 0.85,
+        imageRotation: 90,
         imageScale: 0.05,
       },
       {
@@ -87,8 +87,8 @@ export const props = [
         weight: 10.0,
         image: './img/taste-test-icon.png', // Add your image path
         imageOpacity: 1,
-        imageRadius: 0.5,
-        imageRotation: 0,
+        imageRadius: 0.85,
+        imageRotation: 90,
         imageScale: 0.05,
       },
       {
@@ -97,8 +97,8 @@ export const props = [
         weight: 10.0,
         image: './img/shotgun-icon.png', // Add your image path
         imageOpacity: 1,
-        imageRadius: 0.5,
-        imageRotation: 0,
+        imageRadius: 0.85,
+        imageRotation: 90,
         imageScale: 0.05,
       },
       {
@@ -107,8 +107,8 @@ export const props = [
         weight: 10.0,
         image: './img/dill-shot-icon.png', // Add your image path
         imageOpacity: 1,
-        imageRadius: 0.5,
-        imageRotation: 0,
+        imageRadius: 0.85,
+        imageRotation: 90,
         imageScale: 0.05,
       },
       {
