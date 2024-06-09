@@ -89,7 +89,7 @@ export const props = [
       },
       {
         label: 'FREE BUY IN',
-        backgroundColor: '#FF69B4', // Pink
+        backgroundColor: '#800080', // Pink
         weight: 1.0,
       },
     ],
