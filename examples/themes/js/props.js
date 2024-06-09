@@ -8,11 +8,12 @@ export const props = [
     itemLabelRadiusMax: 0.35,
     itemLabelRotation: 180,
     itemLabelAlign: AlignText.left,
-    itemLabelColors: ['#FFD700', '#FFFFFF', '#FF4500'], // Gold, white, and orange for vibrant slot colors
+    // itemLabelColors: ['#FFD700', '#FFFFFF', '#0000FF', '#FF4500'], 
+    itemLabelColors: ['#000000'], 
     itemLabelBaselineOffset: -0.07,
     itemLabelFont: 'Amatic SC',
     itemLabelFontSizeMax: 55,
-    itemBackgroundColors: ['#FF4500', '#FFD700', '#FFFFFF', '#0000FF'], // Orange, gold, white, and blue
+    itemBackgroundColors: ['#FF4500', '#FFD700', '#FFFFFF', '#0000FF'], 
     rotationSpeedMax: 500,
     rotationResistance: -100,
     lineWidth: 1,
