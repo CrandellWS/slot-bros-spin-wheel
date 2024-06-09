@@ -43,7 +43,6 @@ export const props = [
     ],
   },
 
-
   {
     name: 'Slot Bros Wheel',
     radius: 0.85,
@@ -66,30 +65,55 @@ export const props = [
         label: 'KARAOKE',
         backgroundColor: '#00FFFF', // Cyan
         weight: 10.0,
+        image: './img/karaoke-icon.png', // Add your image path
+        imageOpacity: 1,
+        imageRadius: 0.5,
+        imageRotation: 0,
+        imageScale: 1.2,
       },
       {
         label: 'DEALER\'S CHOICE',
         backgroundColor: '#FFD700', // Gold
         weight: 10.0,
+        image: './img/dealer-icon.png', // Add your image path
+        imageOpacity: 1,
+        imageRadius: 0.5,
+        imageRotation: 0,
+        imageScale: 1.2,
       },
       {
         label: 'TASTE TEST',
         backgroundColor: '#FFFF00', // Yellow
         weight: 10.0,
+        image: './img/taste-test-icon.png', // Add your image path
+        imageOpacity: 1,
+        imageRadius: 0.5,
+        imageRotation: 0,
+        imageScale: 1.2,
       },
       {
         label: 'SHOTGUN',
         backgroundColor: '#FF4500', // Red
         weight: 10.0,
+        image: './img/shotgun-icon.png', // Add your image path
+        imageOpacity: 1,
+        imageRadius: 0.5,
+        imageRotation: 0,
+        imageScale: 1.2,
       },
       {
         label: 'DILL SHOT',
         backgroundColor: '#FF69B4', // Pink
         weight: 10.0,
+        image: './img/dill-shot-icon.png', // Add your image path
+        imageOpacity: 1,
+        imageRadius: 0.5,
+        imageRotation: 0,
+        imageScale: 1.2,
       },
       {
         label: 'FREE BUY IN',
-        backgroundColor: '#800080', // Pink
+        backgroundColor: '#800080', // Purple
         labelColor: '#fff',
         weight: 1.0,
       },
