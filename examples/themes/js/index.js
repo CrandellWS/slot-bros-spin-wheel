@@ -26,6 +26,7 @@ function init() {
     wheel.init({
       ...props[dropdown.selectedIndex],
       rotation: wheel.rotation, // Preserve value.
+      onRest: onRestCallback // Ensure onRest is set during reinitialization
     });
   };
 
@@ -50,4 +51,12 @@ function spinWheel(wheel) {
   const easing = t => t; // Linear easing function, you can customize it
 
   wheel.spinToItem(winningItemIndex, duration, true, 2, 1, easing);
+}
+
+// onRest callback function
+function onRestCallback(event) {
+  const currentIndex = event.currentIndex;
+  const winningItem = props[document.querySelector('select').selectedIndex].items[currentIndex];
+  console.log(`The wheel has come to rest. The winning item is: ${winningItem.label}`);
+  // You can add more actions here, like displaying the result to the user
 }
