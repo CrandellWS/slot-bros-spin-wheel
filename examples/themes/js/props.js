@@ -1,7 +1,7 @@
 import {AlignText} from '../../../src/constants.js';
 
 export const props = [
-  {
+   {
     name: 'Slot Bros',
     radius: 0.85,
     itemLabelRadius: 0.90,
@@ -12,7 +12,7 @@ export const props = [
     itemLabelBaselineOffset: -0.07,
     itemLabelFont: 'Amatic SC',
     itemLabelFontSizeMax: 55,
-    itemBackgroundColors: ['#FF4500', '#FFD700', '#FFFFFF', '#FF3333'], // Orange, gold, and white
+    itemBackgroundColors: ['#FF4500', '#FFD700', '#FFFFFF', '#0000FF'], // Orange, gold, white, and blue
     rotationSpeedMax: 500,
     rotationResistance: -100,
     lineWidth: 1,
@@ -22,18 +22,22 @@ export const props = [
       {
         label: 'BEN',
         weight: 1.0,
+        backgroundColor: '#FF4500', // Red for Ben
       },
       {
         label: 'PHIL',
         weight: 1.0,
+        backgroundColor: '#22B14C', // Green for Phil
       },
       {
         label: 'GAGE',
         weight: 1.0,
+        backgroundColor: '#0000FF', // Blue for Gage
       },
       {
         label: 'DEWSKI',
         weight: 1.0,
+        backgroundColor: '#800080', // Purple for Dewski
       }
     ],
   },
