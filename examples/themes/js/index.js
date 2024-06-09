@@ -46,9 +46,10 @@ function init() {
 
 // Function to spin the wheel to a random item
 function spinWheel(wheel) {
+  const cubicOut = t => (--t) * t * t + 1;
   const duration = 5000; // Duration of the spin in milliseconds
   const winningItemIndex = Math.floor(Math.random() * props[document.querySelector('select').selectedIndex].items.length);
-  const easing = t => t; // Linear easing function, you can customize it
+  const easing = cubicOut; // Linear easing function, you can customize it
 
   wheel.spinToItem(winningItemIndex, duration, true, 2, 1, easing);
 }
